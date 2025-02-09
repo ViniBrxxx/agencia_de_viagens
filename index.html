@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Agência de Viagens</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"><span>T</span>rilhas.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reservas">Reservar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pacotes">Pacotes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicos">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galeria">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <a href="#reservas">Faça sua Reserva</a>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- End Nav Bar -->
+
+    <!-- Home Section -->
+        <div class="home">
+            <div class="content">
+                <h5>Deixe-nos guiar você pelos melhores</h5>
+                <h1>Destinos</h1>
+                <p>Viaje com quem entende de viagem!</p>
+                <a href="#reservas">Faça sua Reserva</a>
+            </div>
+        </div>
+    <!-- End Home Section -->
+
+    <!-- Section Book -->
+     <section class="reservas" id="reservas">
+      <div class="container">
+        <div class="main-text">
+          <h1><span>R</span>eservas</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="images/book-image.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <form action="#">
+              <input type="text" class="form-control" placeholder="Nome" required><br>
+              <input type="email" class="form-control" placeholder="E-mail" required><br>
+              <input type="text" class="form-control" placeholder="Destino" required><br>
+              <input type="text" class="form-control" placeholder="Quantos" required><br>
+              <input type="date" class="form-control" placeholder="Chegada" required><br>
+              <input type="date" class="form-control" placeholder="Partida" required><br>
+              <textarea class="form-control" rows="5" name="text" placeholder="Detalhes"></textarea>
+              <input type="submit" value="Reservar Agora" class="submit" required>
+            </form>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- End Section Book -->
+
+    <!-- Section Pacotes -->
+    <section class="pacotes" id="pacotes">
+      <div class="container">  
+        <div class="main-txt">
+          <h1><span>P</span>acotes</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/Reino Unido.jpg" alt="">
+              <div class="card-body">
+                <h3>Reino Unido</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quia.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Preço:<strong>$500</strong></h6>
+                <a href="#reservas"> Reservar Agora </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/França.jpg" alt="">
+              <div class="card-body">
+                <h3>França</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quia.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6>Preço:<strong>$800</strong></h6>
+                <a href="#reservas"> Reservar Agora </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/Paquistão.jpg" alt="">
+              <div class="card-body">
+                <h3>Paquistão</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quia.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Preço:<strong>$500</strong></h6>
+                <a href="#reservas"> Reservar Agora </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/India.jpg" alt="">
+              <div class="card-body">
+                <h3>Índia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quia.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Preço:<strong>$500</strong></h6>
+                <a href="#reservas"> Reservar Agora </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/San Francisco.jpg" alt="">
+              <div class="card-body">
+                <h3>São Francisco</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quia.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6>Preço:<strong>$800</strong></h6>
+                <a href="#reservas"> Reservar Agora </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/Brasil.jpg" alt="">
+              <div class="card-body">
+                <h3>Brasil</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quia.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6>Preço:<strong>$500</strong></h6>
+                <a href="#reservas"> Reservar Agora </a>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- End Section pacotes -->
+         
+    <!-- Section Serviços -->
+      <section class="servicos" id="servicos">
+        <div class="container">
+          <div class="main-txt">
+            <h1><span>S</span>erviços</h1>
+
+            <div class="row" style="margin-top: 30px;">
+
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-hotel"></i>
+                  <div class="card-body">
+                    <h3>Hotel Acessível</h3>
+                    <p>Hospede-se em lugares incríveis por preços que cabem no seu bolso. Acomodações confortáveis para tornar sua viagem inesquecível!</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-utensils"></i>
+                  <div class="card-body">
+                    <h3>Comida e Bebidas</h3>
+                    <p>Desfrute dos melhores sabores locais e internacionais. Cada refeição é uma nova experiência para o seu paladar!ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+                  </div>
+                </div>
+              </div>   
+              
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-bullhorn"></i>
+                  <div class="card-body">
+                    <h3>Guia de Segurança</h3>
+                    <p>Viaje com tranquilidade! Nosso guia de segurança está aqui para garantir que sua jornada seja segura e sem preocupações.ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+                  </div>
+                </div>
+              </div>
+            </div>           
+
+            <div class="row" style="margin-top: 30px;">
+
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-globe-asia"></i>
+                  <div class="card-body">
+                    <h3>Ao Redor do Mundo</h3>
+                    <p>Explore os destinos mais fascinantes ao redor do mundo. Aventura e cultura esperam por você em cada esquina!</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-plane"></i>
+                  <div class="card-body">
+                    <h3>Viagem Mais Rápida</h3>
+                    <p>Chegue ao seu destino em tempo recorde. Viagens rápidas e confortáveis para quem não perde tempo!ㅤㅤㅤㅤ</p>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                  <i class="fas fa-hiking"></i>
+                  <div class="card-body">
+                    <h3>Aventuras</h3>
+                    <p>Prepare-se para a adrenalina! Se você é fã de emoções fortes, temos aventuras inesquecíveis para você.</p>
+                  </div>
+                </div>
+              </div>
+            </div>      
+          </div>
+        </div>
+      </section>
+    <!-- End Section serviços -->
+         
+    <!-- Section galeria -->
+    <section class="galeria" id="galeria">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>G</span>aleria</h1>
+          
+          <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="images/g1.jpg" alt="" height="230px">
+              </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="images/g2.jpg" alt="" height="230px">
+              </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="images/g3.jpg" alt="" height="230px">
+              </div>
+            </div>
+          </div>
+
+          <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="images/g4.jpg" alt="" height="230px">
+              </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="images/g5.jpg" alt="" height="230px">
+              </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="images/g6.jpg" alt="" height="230px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section galeria -->
+         
+    <!-- sobre -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+          <div class="main-txt">
+            <h1>Sobre <span>Nós</span></h1>
+          </div>
+
+          <div class="row" style="margin-top: 50px;">
+
+            <div class="col-md-6 py-3 py-md-0">
+              <div class="card">
+                <img src="images/about-image.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+              <h2>Como Funciona uma Agência de Viagens</h2>
+              <p>Na nossa agência de viagens, cada detalhe é planejado para oferecer a melhor experiência aos nossos clientes. Começamos com uma consultoria personalizada para entender suas preferências e expectativas. A partir daí, buscamos as melhores opções de pacotes, voos, hospedagem e passeios, sempre levando em conta o seu orçamento e estilo de viagem. Nosso objetivo é proporcionar uma viagem sem preocupações, com todo o suporte necessário antes, durante e após a sua jornada. Além disso, garantimos que cada etapa seja bem planejada, para que você aproveite ao máximo o destino escolhido. Deixe-nos cuidar de todos os detalhes e aproveite sua viagem de forma única e inesquecível!</p>
+              <button id="sobre-btn">Ler mais...</button>
+            </div>
+
+          </div>
+
+        </div>
+    </section>
+    <!-- End sobre -->
+         
+    <!-- Footer -->
+    <footer id="footer">
+      <h1><span>T</span>rilhas.com</h1>
+      <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+      </div>
+
+      <div class="credit">
+        <p>Designed By <a href="#">Vinicius</a></p>
+      </div>
+
+      <div class="copyright">
+        <p>&copy;Copyright Vinicius. All rights reserved</p>
+      </div>
+
+    </footer>
+    <!-- End Footer -->
+         
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+</body>
+</html>
